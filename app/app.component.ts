@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'pm-app',
-    template: `
-        <div class='container'>
-            <router-outlet></router-outlet>
-        </div>
-     `
+    templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
     pageTitle: string = 'Web News';
